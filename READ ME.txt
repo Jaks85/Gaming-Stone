@@ -1,0 +1,6 @@
+Updates
+
+#1 10/15/2021
+-Uploaded a form that has media query for mobile devices.
+-Was not sure what to do for full screens.
+-May not keep survey form in final project.
