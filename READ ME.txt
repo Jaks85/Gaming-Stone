@@ -1,5 +1,13 @@
 Updates
 
+#2 10/18/2021
+-Made Guides page and connected forms
+-added videos to guides page
+-made nav menu
+-added videos to guides page
+-made index page with Lorem ipsum text
+
+
 #1 10/15/2021
 -Uploaded a form that has media query for mobile devices.
 -Was not sure what to do for full screens.

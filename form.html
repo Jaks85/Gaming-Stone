@@ -1,45 +1,60 @@
 <!DOCTYPE html>
-<link href="CSS/form.css" rel="stylesheet">
+<html lang="en">
 
-<body>
+<head>
+    <link href="CSS/styles.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+
+    <ul class="survey">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="form.html">Survey Form</a></li>
+        <li><a href="guides.html">Guides</a></li>
+    </ul>
+
+</head>
+
+<body class="form">
     <div class="header">
-    <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80" alt="Typing on laptop" />
-    <h1 id="title">Welcome to the coding survey form</h1>
-    <p id="description"><b>Please let me know some of your thoughts</b></p>
-      <form id="survey-form">
-        <label for="name" id="name-label">Name</label><br>
-        <input type="text" name="name" id="name" placeholder="Enter your name" required><br>
-        
-        <label for="email" id="email-label">Email</label><br>
-        <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
-        
-        <label for="number" id="number-label">Phone Number</label><br>
-        <input type="text" name="phone" id="phone" placeholder="Enter your phone number" min="1" max="10" maxlength="10" required><br>
-        <p>What level of coding are you experienced in?</p>
-        <select id="dropdown" required>
-          <option disabled selected value>Select Current Experience</option>
-          <option value="experience">No experience</option>
-          <option value="beginner">Beginner</option>
-          <option value="intermediate">Intermediate</option>
-                  <option value="advanced">Advanced</option>
-          <option value="interest">No Interest</option>
-        </select><br>
-        
-       
-        <p>Do enjoy learning to code?</p>
-        <label for="yes"><input id="yes" type="radio" name="yes-no" checked> Yes</label>
-      <label for="no"><input id="no" type="radio" name="yes-no"> No</label><br>
-        
-        <P>What keeps you from coding?</p>
-        
-        <label for="work"><input id="work" type="checkbox" name="coding" checked> Work</label>
-      <label for="family"><input id="family" type="checkbox" name="coding"> Family</label>
-      <label for="other"><input id="other" type="checkbox" name="coding"> Other</label>
-        
-        <textarea id="text" placeholder="Additional information"></textarea><br>
-        <button id="complete" type="complete">Complete Survey</button>
-      </form>
-  </div>
-      </body>
+        <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80"
+            alt="Typing on laptop" />
+        <h1 id="title">Welcome to the coding survey form</h1>
+        <p id="description"><b>Please let me know some of your thoughts</b></p>
+        <form id="survey-form">
+            <label for="name" id="name-label">Name</label><br>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required><br>
 
-      </html>
+            <label for="email" id="email-label">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
+
+            <label for="number" id="number-label">Phone Number</label><br>
+            <input type="text" name="phone" id="phone" placeholder="Enter your phone number" min="1" max="10"
+                maxlength="10" required><br>
+            <p>What level of coding are you experienced in?</p>
+            <select id="dropdown" required>
+                <option disabled selected value>Select Current Experience</option>
+                <option value="experience">No experience</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+                <option value="interest">No Interest</option>
+            </select><br>
+
+
+            <p>Do enjoy learning to code?</p>
+            <label for="yes"><input id="yes" type="radio" name="yes-no" checked> Yes</label>
+            <label for="no"><input id="no" type="radio" name="yes-no"> No</label><br>
+
+            <P>What keeps you from coding?</p>
+
+            <label for="work"><input id="work" type="checkbox" name="coding" checked> Work</label>
+            <label for="family"><input id="family" type="checkbox" name="coding"> Family</label>
+            <label for="other"><input id="other" type="checkbox" name="coding"> Other</label>
+
+            <textarea id="text" placeholder="Additional information"></textarea><br>
+            <button id="complete" type="complete">Complete Survey</button>
+        </form>
+    </div>
+</body>
+
+</html>

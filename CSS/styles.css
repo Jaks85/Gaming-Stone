@@ -1,0 +1,142 @@
+/* Menu*/
+ul {
+  list-style-type: none;
+  color: black;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: red;
+}
+
+/* Index CSS */
+
+.home {
+  text-align: center;
+}
+
+.homenav a {
+  background-color: black;
+  color: white;
+}
+
+/*Forms CSS */
+.form {
+    background-color: grey;
+    color: green;
+    font-family: sans-serif;
+  }
+  
+  .header img {
+    border-radius: 25px;
+    float: left;
+    width: 700px;
+    background: #555;
+    opacity: .75;
+  }
+  
+  #title {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+  }
+  
+  #description {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+  }
+  
+  #survey-form {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  #text {
+    margin-left: 30px;
+    float: right;
+  }
+
+  .survey {
+    display: inline;
+    float: right;
+    background-color:grey;
+  }
+
+  .survey a {
+    background-color: white;
+  }
+
+  /*Guides CSS */
+  .youtube {
+    color: red;
+    text-align: center;
+  }
+
+  iframe {
+    padding: 30px;
+    border: 5px red solid;
+    background-color: #555;
+  }
+
+/*Media Query */
+  @media only screen and (max-width: 600px) {
+      .header img {
+        display: none;
+      }
+
+      .form {
+        background-color: white;
+      }
+
+      body {
+      background-color: white;
+      text-align: center;
+      font-size: 18px;
+      line-height: normal;
+      }
+
+      #description      {
+          top: 100px;
+          left: 60px;
+      }
+
+      input {
+          height: 50px;
+          text-align: center;
+      }
+
+      #complete {
+        height: 50px;
+        font-weight: bold;
+      }
+
+      #title {
+          background-color: darkblue;
+      }
+
+      textarea {
+          padding: 30px;
+      }
+
+
+      #survey-form {
+          top: 140px;
+      }
+    }
+
+   /*End of small media */
+  
+  
+  
+  
+  
