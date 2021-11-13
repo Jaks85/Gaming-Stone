@@ -1,29 +1,39 @@
 /* Menu*/
-ul {
-  list-style-type: none;
-  color: black;
+#hamnav {
+  width: 100%;
+  background: #000;
 }
 
-li {
-  display: inline;
-  float: left;
-}
 
-a {
-  display: block;
-  padding: 8px;
-  background-color: red;
+#hamitems { display: flex; }
+#hamitems a {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
 }
+#hamitems a:hover { background: #401408; }
+
+#hamnav label, #hamburger { display: none; }
 
 /* Index CSS */
 
 .home {
   text-align: center;
+  font-size: 20px;
 }
 
 .homenav a {
   background-color: black;
   color: white;
+}
+
+.console img {
+  max-width: 15%;
+  height: auto;
+  border: 1px solid black;
 }
 
 /*Forms CSS */
@@ -43,13 +53,13 @@ a {
   
   #title {
     position: absolute;
-    top: 0px;
+    top: 30px;
     left: 10px;
   }
   
   #description {
     position: absolute;
-    top: 50px;
+    top: 80px;
     left: 20px;
   }
   
@@ -59,6 +69,7 @@ a {
     left: 20px;
     padding: 10px;
     font-weight: bold;
+    margin-top: 20px;
   }
   
   #text {
@@ -105,9 +116,12 @@ a {
       line-height: normal;
       }
 
+      #title {
+        display: none;
+      }
+
       #description      {
-          top: 100px;
-          left: 60px;
+          display: none;
       }
 
       input {
@@ -136,6 +150,29 @@ a {
 
    /*End of small media */
   
+   @media only screen and (max-width: 1080px) {
+  
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+ 
+  
+  #hamnav label { 
+    display: inline-block; 
+    color: white;
+    background: #a02620;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  
+  #hamitems { display: none; }
+  #hamnav input:checked ~ #hamitems { display: block; }
+   }
   
   
   

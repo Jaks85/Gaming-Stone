@@ -1,5 +1,11 @@
 Updates
 
+#3 11/13/2021
+-Added Hamburger Style Icon with media query for small/medium screens
+-Added images to home screen for javascript later
+-Added about me info for home page
+
+
 #2 10/18/2021
 -Made Guides page and connected forms
 -added videos to guides page
