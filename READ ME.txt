@@ -1,5 +1,11 @@
 Updates
 
+#4 11/14/2021
+-Added Javascript for console images to drag to Owned/Not Owned
+-Added About Me for home page
+
+
+
 #3 11/13/2021
 -Added Hamburger Style Icon with media query for small/medium screens
 -Added images to home screen for javascript later

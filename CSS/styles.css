@@ -36,6 +36,21 @@
   border: 1px solid black;
 }
 
+.target-container {
+  display: flex;
+}
+
+.target {
+  width: 800px;
+  height: 400px;
+  border: 1px solid #000;
+}
+
+#div2 img {
+  max-width: 25%;
+  height: auto;
+}
+
 /*Forms CSS */
 .form {
     background-color: grey;
@@ -145,6 +160,15 @@
 
       #survey-form {
           top: 140px;
+      }
+
+      .home {
+        font-size: 25px;
+      }
+
+      .console img {
+        max-width: 50%;
+        height: auto;
       }
     }
 

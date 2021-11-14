@@ -33,19 +33,33 @@
     <p>These are the consoles that I have owned over the years. Most of the them I still own. I would like to know if
         you have owned any of these same consoles as well?</p>
 
-    <div class="console">
-        <img src="Img/nes.jpg" alt="Picture of Nintendo entertainment system">
-        <img src="Img/sega.jpg" alt="Picture of Sega Genesis">
-        <img src="Img/ps1.png" alt="Picture of Playstation One">
-        <img src="Img/ps2.jpg" alt="Picture of Playstation Two">
-        <img src="Img/ps3.png" alt="Picture of Playstation Three">
-        <img src="Img/ps4.gif" alt="Picture of Playstation Four">
-        <img src="Img/ps5.png" alt="Picture of Playstation Five">
-        <img src="Img/xbox.jpg" alt="Picture of Xbox Series X">
-        <img src="Img/switch.jpg" alt="Picture of Nintendo">
+    <div class="console" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="Img/nes.jpg" alt="Picture of Nintendo entertainment system" draggable="true" ondragstart="drag(event)"
+            id="drag1">
+        <img src="Img/sega.jpg" alt="Picture of Sega Genesis" draggable="true" ondragstart="drag(event)"
+        id="drag2">
+        <img src="Img/ps1.png" alt="Picture of Playstation One" draggable="true" ondragstart="drag(event)"
+        id="drag3">
+        <img src="Img/ps2.jpg" alt="Picture of Playstation Two" draggable="true" ondragstart="drag(event)"
+        id="drag4">
+        <img src="Img/ps3.png" alt="Picture of Playstation Three" draggable="true" ondragstart="drag(event)"
+        id="drag5">
+        <img src="Img/ps4.gif" alt="Picture of Playstation Four" draggable="true" ondragstart="drag(event)"
+        id="drag6">
+        <img src="Img/ps5.png" alt="Picture of Playstation Five" draggable="true" ondragstart="drag(event)"
+        id="drag7">
+        <img src="Img/xbox.jpg" alt="Picture of Xbox Series X" draggable="true" ondragstart="drag(event)"
+        id="drag8">
+        <img src="Img/switch.jpg" alt="Picture of Nintendo" draggable="true" ondragstart="drag(event)"
+        id="drag9">
     </div>
+    <h3>Drag your owned and not owned consoles</h3>
 
-
+    <div class="target-container" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)" width="88" height="31">
+        <div class="target">Owned</div>
+        <div class="target">Have Not Owned</div>
+    </div>
+    <script src="JS/script.js"></script>
 </body>
 
 </html>
