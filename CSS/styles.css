@@ -170,6 +170,19 @@
         max-width: 50%;
         height: auto;
       }
+
+      .drag {
+        display: none;
+      }
+      
+      .target-container {
+        display: none;
+      }
+
+      iframe {
+        height: 300;
+        width: auto;
+      }
     }
 
    /*End of small media */

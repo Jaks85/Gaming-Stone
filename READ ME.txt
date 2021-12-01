@@ -1,5 +1,12 @@
 Updates
 
+Start with the index page and move to the guides page or form.
+
+
+#5 11/30/2021
+-Added media query full all pages
+-Added Javascript for form
+
 #4 11/14/2021
 -Added Javascript for console images to drag to Owned/Not Owned
 -Added About Me for home page
